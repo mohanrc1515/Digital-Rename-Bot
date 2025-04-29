@@ -34,16 +34,16 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "12655645")
+    API_HASH = os.environ.get("API_HASH", "05c4cafe00b81ed83207bb4365e0053b")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5279221407:AAF880XHTv82dS1LZwvyTAFUBDPD0eD-9_M") 
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_URL = os.environ.get("DB_URL","7696984863:AAEiUA76NTYiQ2dYlCzxEAaymT_FMnnkKpM")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
